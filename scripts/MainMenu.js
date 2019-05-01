@@ -19,15 +19,15 @@
 
 
   generateHtml() {
-    this.setSubmenus("intervals");
-    this.setSubmenus("scales");
-    this.setSubmenus("chords");
+    this.setSubmenus("");
+    this.setSubmenus("");
+    this.setSubmenus("");
 
-    this.setElement("Rd", strings[loc].rd);
-    this.setElement("Md", strings[loc].md);
-    this.setElement("Hd", strings[loc].hd);
+    this.setElement("", );
+    this.setElement("", );
+    this.setElement("", );
     
-    this.setElement("Help", strings[loc].help);
+    this.setElement("", );
   }
  
 };
