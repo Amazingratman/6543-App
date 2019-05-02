@@ -4,7 +4,7 @@
  class Login extends Page {
   constructor(id, parent) {
     super (id, parent);
-    document.getElementById("loginButton").innerHTML = strings[loc].login;
+    document.getElementById("loginButton").innerHTML = "login";
 
     document.getElementById("loginButton").addEventListener("click",() => {
       window.location.href = "mainMenu.php";
