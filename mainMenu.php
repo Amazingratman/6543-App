@@ -22,10 +22,10 @@ include 'html/head.html';
    
 <?php
 echo '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>';
-echo '<script src="resources/scripts/globals.js" type="text/javascript"></script>';
-echo '<script src="resources/scripts/Page.js" type="text/javascript"></script>';
-echo '<script src="resources/scripts/BButton.js" type="text/javascript"></script>';
-echo '<script src="resources/scripts/test.js" type="text/javascript"></script>';
+
+echo '<script src="scripts/Page.js" type="text/javascript"></script>';
+
+echo '<script src="scripts/test.js" type="text/javascript"></script>';
 ?>
 </body>
 

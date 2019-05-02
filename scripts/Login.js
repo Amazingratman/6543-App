@@ -4,6 +4,16 @@
  class Login extends Page {
   constructor(id, parent) {
     super (id, parent);
+	
+	 let html = '<div id="loginPage">';
+    html += '<button id="loginButton">';
+    html += '</button>';
+	html += '<input id="nameInput">';
+	html += '</input>';
+	html += '<input id="passwordInput">';
+	html += '</input>';
+    html += '</div>';
+	
     document.getElementById("loginButton").innerHTML = "login";
 
     document.getElementById("loginButton").addEventListener("click",() => {
@@ -13,25 +23,4 @@
 
 }// ---- End Login ---- //
 
-let app = (function() {
-  "use strict"; 
-
-  let login = new Login("login","loginPage");
-
-})();
-
-
-
-
-
-let login = (function() {
-  "use strict"; 
-  let login = new Login("loginPage");
-
-  // ---- Return Public Items ---- //
-  return {
-  };
-})();
-
-// ---- End Login ---- //
 
