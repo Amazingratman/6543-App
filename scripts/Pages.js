@@ -5,8 +5,8 @@
  class Pages {
   constructor(startPage) {
     this.pages = {
-      landing: new Landing("landingPage", this),
-      main: new Main("mainMPage", this),
+      test: new Landing("testPage", this),
+      main: new Main("mainMenuPage", this),
       login: new Login("loginPage", this),
     };
     this.setCurrent(startPage);
