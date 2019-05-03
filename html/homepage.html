@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<title>Admin</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+      body{
+            margin: 0;
+            padding: 0;
+        }
+        body:before{
+            content: '';
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background-image: url("http://www.mach-arch.com/Websites/macharch/PhotoGallery/4820220/VHP_7581.jpg?05372");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            -webkit-filter: blur(10px);
+            -moz-filter: blur(10px);
+            -o-filter: blur(10px);
+            -ms-filter: blur(10px);
+            filter: blur(10px);
+        }
+
+/* Style the header */
+header {
+  padding: 1.618em 0 0;
+ margin-bottom: 3.631em;
+ border-bottom: 4px double blue;
+ clear: both;
+ position: fixed;
+ z-index: 9999;/* set this to something high*/
+ background-color:blueviolet; /* so you can see it is a block */
+ min-width:100%; 
+}
+
+  .button {
+  display:block;
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  margin-top: 50%;
+    background-color: white;
+  color: black;
+    border: 2px solid blue;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/* Style the list inside the menu */
+
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>                       Welcome Back Admin</h2>
+</header>
+
+</body>
+    
+<center> Please Select From the Following Options</center>
+    
+        <button class="button" style="vertical-align:middle"><span>Create A Test </span> </button>
+     <button class="button" style="vertical-align:middle"><span>Edit Test </span> </button>
+     <button class="button" style="vertical-align:middle"><span>Test Bank </span> </button>
+     <button class="button" style="vertical-align:middle"><span>Create User ID </span> </button>
+   
+
+
+</div>
+
+
+</html>
